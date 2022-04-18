@@ -1,1 +1,1 @@
-# PoC.Reusable.StoragesBroker
+# PoC.Reusable.TheStandard
