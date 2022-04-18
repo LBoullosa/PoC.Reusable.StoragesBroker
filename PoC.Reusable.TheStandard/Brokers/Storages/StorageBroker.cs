@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using PoC.Reusable.TheStandard.Brokers.Storages;
 
 namespace PoC.Reusable.TheStandard.Brokers
 {
-    public partial class StorageBroker : DbContext, IStorageBroker
+	public partial class StorageBroker : DbContext, IStorageBroker
     {
         private readonly IConfiguration configuration;
 
