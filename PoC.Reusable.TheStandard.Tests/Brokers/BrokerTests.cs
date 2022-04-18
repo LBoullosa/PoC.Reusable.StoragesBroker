@@ -4,7 +4,7 @@ using Moq;
 using PoC.Reusable.TheStandard.Brokers;
 using PoC.Reusable.TheStandard.Models;
 
-namespace PoC.Reusable.TheStandard.Tests
+namespace PoC.Reusable.TheStandard.Tests.Unit.Brokers
 {
 	public class BrokerTests
 	{
