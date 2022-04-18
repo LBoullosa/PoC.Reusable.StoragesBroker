@@ -1,21 +1,21 @@
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Moq;
-using PoC.Reusable.StoragesBroker.Brokers;
-using PoC.Reusable.StoragesBroker.Models;
+using PoC.Reusable.TheStandard.Brokers;
+using PoC.Reusable.TheStandard.Models;
 
-namespace PoC.Reusable.StoragesBroker.Tests
+namespace PoC.Reusable.TheStandard.Tests
 {
 	public class BrokerTests
 	{
-		private readonly Mock<IStorageBroker<Car>> storageBrokerMock;
+		//private readonly Mock<IStorageBroker<Car>> storageBrokerMock;
 
 		public BrokerTests()
 		{
-			this.storageBrokerMock = new Mock<IStorageBroker<Car>>();
+			//this.storageBrokerMock = new Mock<IStorageBroker<Car>>();
 		}
 
-		[Fact]
+		/*[Fact]
 		public async Task ShouldRetrieveAllCars()
 		{
 			StorageBroker broker = new StorageBroker(null);
@@ -27,6 +27,6 @@ namespace PoC.Reusable.StoragesBroker.Tests
 				.ToListAsync();
 			//then
 			cars.Should().NotBeNull();
-		}
+		}*/
 	}
 }

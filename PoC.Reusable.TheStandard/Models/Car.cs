@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PoC.Reusable.StoragesBroker.Models
+namespace PoC.Reusable.TheStandard.Models
 {
-    public class Driver
+    public class Car
     {
     }
 }

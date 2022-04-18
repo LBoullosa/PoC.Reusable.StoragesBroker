@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32317.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.Reusable.StoragesBroker", "PoC.Reusable.StoragesBroker\PoC.Reusable.StoragesBroker.csproj", "{07F943EA-AD99-46FF-AF53-5C8FD190A567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.Reusable.TheStandard", "PoC.Reusable.TheStandard\PoC.Reusable.TheStandard.csproj", "{07F943EA-AD99-46FF-AF53-5C8FD190A567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Reusable.StoragesBroker.Tests.Unit", "PoC.Reusable.StoragesBroker.Tests\PoC.Reusable.StoragesBroker.Tests.Unit.csproj", "{2E5516F9-6A22-47E2-844D-FF943785E986}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.Reusable.TheStandard.Tests.Unit", "PoC.Reusable.TheStandard.Tests\PoC.Reusable.TheStandard.Tests.Unit.csproj", "{2E5516F9-6A22-47E2-844D-FF943785E986}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
